@@ -1,6 +1,7 @@
 # String Generator
 
 ![Code:Could be better](https://img.shields.io/badge/Code-Could%20be%20better-red?style=flat-square)
+![Status:WIP](https://img.shields.io/badge/Status-WIP-yellow?style=flat-square)
 
 ![Lang:C](https://img.shields.io/badge/Lang-C-blue?style=flat-square)
 
