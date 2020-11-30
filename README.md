@@ -9,10 +9,9 @@ String generator that displays all possible variants of character combination ta
 
 **Example**:
 
-User enters "ab". The program will take all the characters from 
-the string and will generate all character combination in
-ascending order.
-```
+User enters "ab". The program will take all the characters from the string and will generate all character combination in ascending order.
+
+```txt
 User input: ab
 a
 b
@@ -21,7 +20,6 @@ ab
 ba
 bb
 ```
-
 
 **TODO**:
 
