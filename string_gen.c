@@ -4,8 +4,9 @@
 int main()
 {
     char word[256], current_word;
-    int word_count = 0, i, j, k;
+    unsigned int word_count = 0, lenght, i, j, k;
 
+    printf("Enter word/characters to generate posible variants: ");
     scanf("%s", word);
 
 
@@ -74,6 +75,19 @@ int main()
     {
         new_symb[i] = symb[i];
     }
+
+
+
+
+    // Generating part
+    printf("Enter the maximum length of last string: ");
+    scanf("%i", &lenght);
+
+    char gen_string[lenght];
+
+    
+
+
 
 
     return 0;
