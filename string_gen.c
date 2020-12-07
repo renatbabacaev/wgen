@@ -83,9 +83,27 @@ int main()
     printf("Enter the maximum length of last string: ");
     scanf("%i", &lenght);
 
-    char gen_string[lenght];
+/*  I'll use 1 for new string to apply the next formula:
 
+    n - number of symbols extracted
+    a - possible string combinations for 
+    current number of characters
+
+    a = n^2
+
+
+    Second loop will use this formula 
     
+    ⚠ USE GREATER/LESS OR EQUAL THAN ⚠ */
+
+    for(i = 1; i <= lenght; i++)
+    {
+        for(j = 0; j <= (i ^ 2); j++)
+        {
+            printf("%c", new_symb[i]);
+        }
+        printf("\n");
+    }
 
 
 
