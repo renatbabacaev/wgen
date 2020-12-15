@@ -12,7 +12,7 @@
 int main()
 {
     char word[256];
-    int i, j, k, max_length, word_count;
+    int i, j, max_length, word_count;
 
     scanf("%s", &word);
 
