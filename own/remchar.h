@@ -21,5 +21,5 @@ int remchar(int a, char b[256])
         }
     }
 
-    return k;
+    return 0;
 }
