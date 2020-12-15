@@ -22,8 +22,15 @@ ba
 bb
 ```
 
+## How to run
+
+```c
+gcc -o gen.txt string_gen.c
+```
+
+gen.txt can be any file you want to output all possible variations, as it will fill your whole terminal window.
+
 **TODO**:
 
 - Finish the code;
-- Rewrite original code in other languages;
 - Fill [README](./README.md).
