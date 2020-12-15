@@ -6,5 +6,5 @@ int len(char a[256])
         i++;
     }
 
-    return 0;
+    return i;
 }
