@@ -28,7 +28,9 @@ bb
 gcc -o gen.txt string_gen.c
 ```
 
-gen.txt can be any file you want to output all possible variations, as it will fill your whole terminal window.
+gen.txt can be any file you want to output all possible variations. 
+
+**Use output argument**, or your terminal will be filled with generated texts.
 
 **TODO**:
 
