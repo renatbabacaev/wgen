@@ -13,7 +13,7 @@
 
 ---
 
-String generator that displays all possible variants of character combination taken from entered word/symbols (W.I.P.)
+String generator that displays all possible variants of character combination taken from entered word/symbols.
 
 **Example**:
 
