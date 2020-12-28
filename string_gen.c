@@ -5,7 +5,6 @@
 // My headers
 #include "own/colchar.h"        // Collecting characters from a string
 #include "own/len.h"            // Getting String Lenght
-#include "own/output.h"
 #include "own/remchar.h"        // Removing same characters
 
 
