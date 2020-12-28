@@ -1,9 +1,17 @@
 # String Generator
 
-![Code:Could be better](https://img.shields.io/badge/Code-Could%20be%20better-red?style=flat-square)
-![Status:WIP](https://img.shields.io/badge/Status-WIP-yellow?style=flat-square)
+![Code:OK](https://img.shields.io/badge/Code-OK-yellow?style=flat-square)
+![Status:WIP](https://img.shields.io/badge/Status-Done-green?style=flat-square)
 
 ![Lang:C](https://img.shields.io/badge/Lang-C-blue?style=flat-square)
+
+---
+
+## Special thanks
+
+- [KrowK1ng](https://github.com/KrowK1ng) - generator part
+
+---
 
 String generator that displays all possible variants of character combination taken from entered word/symbols (W.I.P.)
 
@@ -24,15 +32,22 @@ bb
 
 ## How to run
 
-```c
-gcc -o gen.txt string_gen.c
+```txt
+gcc string_gen.c
 ```
 
-gen.txt can be any file you want to output all possible variations. 
+then
 
-**Use output argument**, or your terminal will be filled with generated texts.
+```txt
+compiled file > out.txt
+```
+
+gen.txt can be any file you want to store output.
+
+---
 
 **TODO**:
 
-- Finish the code;
-- Fill [README](./README.md).
+- [x] Finish the code;
+- [ ] Fill [README](./README.md);
+- [ ] Manage own headers.
