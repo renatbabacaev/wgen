@@ -8,8 +8,7 @@
 #include "own/remchar.h"        // Removing same characters
 
 
-char word[255];
-char prefix[255];
+char word[255], prefix[255];
 int word_count, max_length;
 
 int output(int level, int plevel)
@@ -41,17 +40,17 @@ int main()
     int i; 
 
     printf("User input: ");
-    scanf("%s", &word);
+    gets(word);
     printf("Maximum length: ");
     scanf("%i", &max_length);
+
 
 
     word_count = len(word);
     colchar(word_count, word);
     remchar(word_count, word);
     word_count = len(word);
-    
-    
+
 
     strcpy(prefix,"");
     for(i = 0; i < max_length; i++)
