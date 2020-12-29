@@ -1,5 +1,4 @@
-// Every string has maximum of 256 characters
-
+// Every string has maximum of 255 characters
 #include <stdio.h>
 #include <string.h>
 
@@ -15,9 +14,11 @@ int word_count, max_length;
 
 int output(int level, int plevel)
 {    
+    int i;
+
     if (level == plevel)
     {
-        for(int i = 0; i < word_count; i++)
+        for(i = 0; i < word_count; i++)
         {
             printf("%s%c\n", prefix, word[i]);
         }
@@ -25,7 +26,7 @@ int output(int level, int plevel)
 
     else
     {
-        for(int i = 0; i < word_count; i++)
+        for(i = 0; i < word_count; i++)
         {
             prefix[level] = word[i];
             output(level + 1, plevel); 
@@ -37,7 +38,7 @@ int output(int level, int plevel)
 
 int main()
 {
-    int i, j; 
+    int i; 
 
     printf("User input: ");
     scanf("%s", &word);
