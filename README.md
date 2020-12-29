@@ -50,5 +50,6 @@ gen.txt can be any file you want to store output.
 
 - [x] Finish the code;
 - [ ] Fill [README](./README.md);
-- [ ] Manage own headers.
-- [ ] Port in another languages
+- [ ] Add space detection;
+- [ ] Manage own headers;
+- [ ] Port in another languages.
