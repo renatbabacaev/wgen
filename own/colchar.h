@@ -1,4 +1,4 @@
-int colchar(int a, char b[256])
+int colchar(int a, char b[255])
 {
     int i, j;
     char c;

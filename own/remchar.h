@@ -1,4 +1,4 @@
-int remchar(int a, char b[256])
+int remchar(int a, char b[255])
 {
     int i, j, k;
 
