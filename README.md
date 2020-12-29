@@ -1,7 +1,7 @@
 # String Generator
 
 ![Code:OK](https://img.shields.io/badge/Code-OK-yellow?style=flat-square)
-![Status:WIP](https://img.shields.io/badge/Status-Done-green?style=flat-square)
+![Status:🛠Improving](https://img.shields.io/badge/Status-🛠Improving-blue?style=flat-square)
 
 ![Lang:C](https://img.shields.io/badge/Lang-C-blue?style=flat-square)
 
