@@ -50,6 +50,12 @@ gen.txt can be any file you want to store output.
 
 - [x] Finish the code;
 - [ ] Fill [README](./README.md);
-- [ ] Add space detection;
+- [x] Add space detection;
 - [ ] Manage own headers;
 - [ ] Port in another languages.
+
+---
+
+## **⚠ Warning ⚠**
+
+Depending on number of characters entered and maximum string length, your wordlist may occupy large amount of disk space.
