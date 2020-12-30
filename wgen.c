@@ -1,6 +1,5 @@
 // Every string has maximum of 255 characters
 #include <stdio.h>
-#include <string.h>
 
 // My headers
 #include "own/colchar.h"        // Collecting characters from a string
@@ -12,7 +11,7 @@ char word[255], prefix[255];
 int word_count, max_length;
 
 int output(int level, int plevel)
-{    
+{
     int i;
 
     if (level == plevel)
@@ -40,7 +39,8 @@ int main()
     int i; 
 
     printf("User input: ");
-    gets(word);
+    scanf("%s", &word);
+    printf("%s", word);
     printf("Maximum length: ");
     scanf("%i", &max_length);
 
@@ -52,7 +52,7 @@ int main()
     word_count = len(word);
 
 
-    strcpy(prefix,"");
+
     for(i = 0; i < max_length; i++)
     {
         output(0, i);
