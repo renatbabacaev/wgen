@@ -51,7 +51,7 @@ gen.txt can be any file you want to store output.
 - [x] Finish the code;
 - [ ] Fill [README](./README.md);
 - [x] Add space detection;
-- [x] Add support for unicode characters;
+- [ ] Add utf-8 support;
 - [ ] Manage own headers;
 - [ ] Port in another languages.
 
