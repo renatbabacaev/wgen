@@ -39,8 +39,7 @@ int main()
     int i; 
 
     printf("User input: ");
-    scanf("%s", &word);
-    printf("%s", word);
+    gets(word);
     printf("Maximum length: ");
     scanf("%i", &max_length);
 
