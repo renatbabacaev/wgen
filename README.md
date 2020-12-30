@@ -13,7 +13,7 @@
 
 ---
 
-String generator that displays all possible variants of character combination taken from entered word/symbols.
+Wordlist generator that displays all possible variants of character combination taken from entered word/symbols.
 
 **Example**:
 
@@ -33,7 +33,7 @@ bb
 ## How to run
 
 ```txt
-gcc string_gen.c
+gcc wgen.c
 ```
 
 then
