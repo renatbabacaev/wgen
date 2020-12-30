@@ -39,7 +39,7 @@ gcc string_gen.c
 then
 
 ```txt
-compiled file > out.txt
+./compiled > out.txt
 ```
 
 gen.txt can be any file you want to store output.
@@ -56,6 +56,6 @@ gen.txt can be any file you want to store output.
 
 ---
 
-## **⚠ Warning ⚠**
+## **⚠ Caution ⚠**
 
 Depending on number of characters entered and maximum string length, your wordlist may occupy large amount of disk space.
