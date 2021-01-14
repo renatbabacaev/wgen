@@ -21,13 +21,14 @@ User enters "ab" and then lenght of maximum string combination. The program will
 
 ```txt
 User input: ab
-Maximum lenght: 2
-a
-b
-aa
-ab
-ba
-bb
+Maximum lenght: 5
+Minimum lenght: 3
+aaa
+bbb
+aab
+...
+bbbba
+bbbbb
 ```
 
 ## How to run
