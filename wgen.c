@@ -40,19 +40,19 @@ int main()
 
     printf("User input: ");
     gets(word);
+
     printf("Maximum length: ");
     scanf("%i", &max_length);
-
-
 
     word_count = len(word);
     colchar(word_count, word);
     remchar(word_count, word);
     word_count = len(word);
 
+    printf("Minimum lenght: ");
+    scanf("%i", &i); i--;
 
-
-    for(i = 0; i < max_length; i++)
+    for(; i < max_length; i++)
     {
         output(0, i);
     }
