@@ -47,6 +47,25 @@ gen.txt can be any file you want to store output.
 
 ---
 
+## Coding Style
+
+* Custom function must be written as a separate header with CAPS both in filename and funciton name
+* Brackets in headers will open without space after code, but in main file will open after space
+  
+```c
+HEADER() {
+    Something
+}
+//////////
+main()
+{
+    Something
+}
+```
+
+
+---
+
 **TODO**:
 
 - [x] Finish the code;
