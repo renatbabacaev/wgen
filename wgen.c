@@ -18,20 +18,20 @@ int main()
     printf("User input: ");
     gets(word);
 
-    printf("Maximum length: ");
-    scanf("%i", &max_length);
-
-    word_count = LEN(word);
-    COLCHAR(word_count, word);
-    REMCHAR(word_count, word);
-    word_count = LEN(word);
-
     printf("Minimum lenght: ");
     scanf("%i", &i); i--;
 
+    printf("Maximum length: ");
+    scanf("%i", &max_length);
+
+    word_count = len(word);
+    colchar(word_count, word);
+    remchar(word_count, word);
+    word_count = len(word);
+
     for(; i < max_length; i++)
     {
-        OUTPUT(0, i);
+        output(0, i);
     }
 
     return 0;
