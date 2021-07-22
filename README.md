@@ -21,8 +21,8 @@ User enters "ab" and then lenght of maximum string combination. The program will
 
 ```txt
 User input: ab
-Maximum lenght: 5
 Minimum lenght: 3
+Maximum lenght: 5
 aaa
 bbb
 aab
